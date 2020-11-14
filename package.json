@@ -1,0 +1,27 @@
+{
+  "name": "invertmode",
+  "version": "1.0.0",
+  "main": "script.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "author": "Alexander Jarl",
+  "license": "ISC",
+  "keywords": [],
+  "description": "invert.js is a module that will invert the colors of your whole page.",
+  "dependencies": {
+    "fullpage.js": "^3.0.9",
+    "node-sass": "^5.0.0",
+    "parcel-bundler": "^1.12.4"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alexanderjarl91/shoe_fullpage.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alexanderjarl91/shoe_fullpage/issues"
+  },
+  "homepage": "https://github.com/alexanderjarl91/shoe_fullpage#readme"
+}

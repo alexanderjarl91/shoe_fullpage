@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css2?family=Big+Shoulders+Inline+Text:wght@100;300&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+.logo {
+  position: absolute;
+  left: 40px;
+  top: 40px;
+  width: 10%;
+}
+button {
+  background: none;
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
+}
+
+button:hover {
+  opacity: 0.5;
+}
+.container {
+  margin-bottom: 15rem;
+}
+#button {
+  font-family: "Big Shoulders Inline Text", cursive;
+  color: white;
+  font-size: 150%;
+  padding: 6px;
+  border: 2px solid white;
+  margin-top: 2rem;
+}
+.s1 {
+  justify-content: center;
+}
+
+.s0 {
+  background-color: #702547;
+  text-align: center;
+}
+
+.s1 {
+  background-color: #f9b3d1;
+  text-align: center;
+}
+
+.s2 {
+  background: #624763;
+  text-align: center;
+}
+
+.s3 {
+  background: #624763;
+  text-align: center;
+}
+
+.titles {
+  margin: -8rem;
+}
+
+.title {
+  font-family: "Big Shoulders Inline Text", cursive;
+  color: white;
+  font-size: 6rem;
+}
+
+.subtitle {
+  color: white;
+  margin: 1rem;
+  font-family: "Big Shoulders Inline Text", cursive;
+}
+
+.img {
+  width: 40%;
+}
+
+.invert-mode {
+  filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
+  -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
+}
+
+span {
+  background: white !important;
+}
+
+/*# sourceMappingURL=main.css.map */
+
+.logo {
+  -webkit-animation: spin 5s infinite;
+  animation: spin 5s infinite;
+}
+
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: rotateY(0deg);
+  }
+  to {
+    -webkit-transform: rotateY(-360deg);
+  }
+}
+
+@keyframes spin {
+  from {
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    transform: rotateY(0deg);
+  }
+
+  to {
+    -moz-transform: rotateY(-360deg);
+    -ms-transform: rotateY(-360deg);
+    transform: rotateY(-360deg);
+  }
+}

@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.css"
+    />
+
+  </head>
+  <body>
+    <div id="fullPage">
+        <div class="section s0">
+            <img class="logo"src="images/PikPng.com_michael-jordan-logo-png_4701949.png" alt="">
+            <div class="container">
+              <div class="titles">
+                <h1 class= "title">Product page</h1>
+                <h2 class= "subtitle">Scroll down to see the collection</h2>
+                <br>
+                <h1 class="subtitle"></h3>
+              </div>    
+            </div>
+            <button id="button">Invert colors</button>
+        </div>
+
+      <div class="section s1">
+        <div class="container">
+            <img class ="img" src="images/464372_00.png.png" alt="">
+            <div class="titles">
+                <h1 class= "title">Air Jordan 6</h1>
+                <h2 class= "subtitle">Retro 'Infrared' 2019</h2>
+                <h1 class="subtitle">$499</h3>
+                <button id="button">Buy now</button>
+                </div>
+                
+            </div>
+            
+        </div>
+        
+
+    <div class="section s2">
+          <div class="slide">
+            <div class="container">
+                <img class ="img" src="images/FAVPNG_nike-free-nike-metcon-4-mens-sports-shoes_syncjdbg.png" alt="">
+                <div class="titles">
+                    <h1 class= "title">Nike Metcon 4</h1>
+                    <h2 class= "subtitle">Women's White/Pink/Gray</h2>
+                    <h1 class="subtitle">$189</h3>
+                    <button id="button">Buy now</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</div>
+
+    
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/3.0.9/fullpage.min.js"></script>
+  <script type="module" src ="script.js"></script>
+  
+  <!-- fullpage.js settings -->
+  <script>
+      new fullpage("#fullPage", {
+          autoScrolling: true,
+          navigation: true,
+          navigationTooltips: ['Home', 'Jordans', 'Nikes'],
+          showActiveTooltip: true,
+          scrollingSpeed: 750,
+        });
+  </script>
+
+  </html>
