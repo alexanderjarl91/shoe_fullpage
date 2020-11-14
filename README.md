@@ -1,6 +1,6 @@
 # What is this?
 
-A demo product page using an npm package called fullPage.js to for full page scrolling effects and nav menu on the right hand side. It also contains the newest, freshest js module on the market.
+A demo product page using an npm library called fullPage.js to for full page scrolling effects and nav menu on the right hand side. It also contains the newest, freshest js module on the market.
 
 This page is using the following technologies:
 *sass;
@@ -10,11 +10,11 @@ This page is using the following technologies:
 
 The node_modules werent supposed to be uploaded to github but they did even though I had my .gitignore file so there's that. Also, the bundled build doesnt build the price and the buy now in a column for some reason which in turn kind of messes up the responsiveness but whatever.
 
-# InvertMode Module Installation
+# InvertIt Module Installation
 
-invert.js is an amazing module that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
+invertit.js is an amazing module that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
 
-to install with npm, run `npm i toggleInvert`
+to install with npm, run `npm i invertit`
 
 or import with cdn: `https://cdn.jsdelivr.net/gh/alexanderjarl91/invert@v4f7d7af/invert.js`
 
@@ -22,7 +22,7 @@ then..
 
 import the function to your js file
 
-`import { toggleInvert } from 'toggleInvert';`
+`import { toggleInvert } from "./node_modules/invertit/invert.js";`
 
 then add dark-mode to your css
 `.invert-mode { filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%); -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%); }`
