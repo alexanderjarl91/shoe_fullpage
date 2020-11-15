@@ -25,14 +25,12 @@ or with cdn
 
 `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexanderjarl91/invert/invert.css">`
 
-### 4. 
-
-import the function to your js file
+### 4. import the function to your js file
 
 `import { toggleInvert } from "./node_modules/invertit/invert.js";`
 
-### 5
+### 5. try it out
 
-then run toggleInvert() function (*on the click of a button for example).
+run toggleInvert() function (*on the click of a button for example).
 
 ## 6. have a  :tropical_drink:
