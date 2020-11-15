@@ -77,11 +77,6 @@ button:hover {
   width: 40%;
 }
 
-.invert-mode {
-  filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
-  -webkit-filter: invert() hue-rotate(180deg) brightness(105%) contrast(105%);
-}
-
 span {
   background: white !important;
 }
