@@ -33,4 +33,4 @@ or with cdn
 
 run toggleInvert() function (*on the click of a button for example).
 
-## 6. have a  :tropical_drink:
+### 6. have a  :tropical_drink:
