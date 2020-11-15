@@ -3,10 +3,10 @@
 A demo product page using an npm library called fullPage.js to for full page scrolling effects and nav menu on the right hand side. It also contains the newest, freshest js module on the market.
 
 This page is using the following technologies:
-sass;
-fullpage.js through cdn;
-parcel bundler;
-js modules (invert.js is exported and imported, this useless module is available on npmjs);
+- sass;
+- fullpage.js through cdn;
+- parcel bundler;
+- js modules (invert.js is exported and imported, this useless module is available on npmjs);
 
 The node_modules werent supposed to be uploaded to github but they did even though I had my .gitignore file so there's that. Also, the bundled build doesnt build the price and the buy now in a column for some reason which in turn kind of messes up the responsiveness but whatever.
 
