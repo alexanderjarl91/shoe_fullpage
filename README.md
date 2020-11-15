@@ -16,18 +16,19 @@ invertit.js is an _amazing_ package that will invert the colors of your whole pa
 
 ### 1.  to install with npm, run `npm i invertit`
 
-or import with cdn: `https://cdn.jsdelivr.net/gh/alexanderjarl91/invert@v4f7d7af/invert.js`
+or import with cdn: 
+### `https://cdn.jsdelivr.net/gh/alexanderjarl91/invert@v4f7d7af/invert.js`
 
 ### 2.   link to the css in your .html
-    `<link rel="stylesheet" href="node_modules/invertit/invert.css">`
+### `<link rel="stylesheet" href="node_modules/invertit/invert.css">`
 
 or with cdn
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexanderjarl91/invert/invert.css">`
+### `<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/alexanderjarl91/invert/invert.css">`
 
 ### 4. import the function to your js file
 
-`import { toggleInvert } from "./node_modules/invertit/invert.js";`
+### `import { toggleInvert } from "./node_modules/invertit/invert.js";`
 
 ### 5. try it out
 
