@@ -10,7 +10,7 @@ This page is using the following technologies:
 
 The node_modules werent supposed to be uploaded to github but they did even though I had my .gitignore file so there's that. Also, the bundled build doesnt build the price and the buy now in a column for some reason which in turn kind of messes up the responsiveness but whatever.
 
-# InvertIt Module Installation :rocket
+# InvertIt package installation :rocket:
 
 invertit.js is an _amazing_ package that will invert the colors of your whole page. This can be used as a dummy dark/light mode while app is still in development.
 
